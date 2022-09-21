@@ -6,7 +6,7 @@ public class Contato {
     private String telefone;
     private String email;
 
-    public Contato(String nome, String telefone, String email){
+    public Contato(String nome, String telefone, String email) {
         //super();
         this.nome = nome;
         this.telefone = telefone;
@@ -39,7 +39,7 @@ public class Contato {
 
     @Override
     public String toString() {
-        return "Contato{" +
+        return "Contato {" +
                 "nome='" + nome + '\'' +
                 ", telefone='" + telefone + '\'' +
                 ", email='" + email + '\'' +
